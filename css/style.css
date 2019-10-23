@@ -1,0 +1,117 @@
+/* TODO */
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00d1b2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
+}
+
+#app-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .5rem 1rem ;
+    
+}
+
+#nav a{ 
+    margin: 1rem ;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    flex: 1;
+}
+
+#login-form{
+    border-top: 4px solid #00d1b2;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #aaa;
+    padding: 2rem 1.5rem 1.5rem;
+    width: 27rem;
+}
+
+#form-title{
+    font-weight: bold;
+    font-style: italic;
+    color: #00d1b2;
+    font-size: 1.5rem;   
+}
+
+.field {
+    margin-top: 1rem;
+}
+
+.field-label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.field-input{
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    margin: 2px 0; 
+}
+
+.field-info{
+    font-size: .8rem;
+    color: #999;
+}
+
+#login-submit{
+    float: right;
+    margin-top: 1rem;
+    background-color: #00d1b2;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: .6rem 1rem;
+}
+
+#footer{
+    text-align: center;
+    padding: .5rem 1rem ;
+    border-top: 1px solid #ccc;
+}
+
+/*
+CLASSE POUR L'ETAPE 2
+*/
+
+.field-input--valid{
+    border: 1px solid #00d1b2;  
+}
+
+.field-input--error{
+    border: 1px solid #ff3860; 
+}
+
+/*
+CLASSE POUR L'ETAPE 3
+*/
+
+.errors_message{
+    background-color: #ff3860;
+    color: white;
+    padding: 1.5rem;    
+    margin-top: 1rem;
+    border-radius: 5px;
+}
